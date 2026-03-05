@@ -19,7 +19,7 @@ import java.util.Collections;
 import static org.awaitility.Awaitility.await;
 import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest(classes = BaseTest.class)
-@DisplayName("Негативные сценарии обработки заказов (Валидация)")
+@DisplayName("Негативные сценарии обработки заказов")
 public class NegativeOrderTests extends BaseTest {
 
     private static final Logger log = LoggerFactory.getLogger(NegativeOrderTests.class);

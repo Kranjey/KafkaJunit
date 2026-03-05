@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="kafka.tests.NegativeOrderTests" time="13.91" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="kafka.tests.NegativeOrderTests" time="16.947" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\79371\AppData\Local\Temp\surefire10321959703127157785\surefirebooter-20260304222541381_3.jar C:\Users\79371\AppData\Local\Temp\surefire10321959703127157785 2026-03-04T22-25-41_243-jvmRun1 surefire-20260304222541381_1tmp surefire_0-20260304222541381_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\79371\AppData\Local\Temp\surefire10590064864363478596\surefirebooter-20260305101849007_3.jar C:\Users\79371\AppData\Local\Temp\surefire10590064864363478596 2026-03-05T10-18-48_760-jvmRun1 surefire-20260305101849007_1tmp surefire_0-20260305101849007_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\79371\source\KafkaJunit\demo\target\test-classes;C:\Users\79371\source\KafkaJunit\demo\target\classes;C:\Users\79371\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.0\spring-boot-starter-3.2.0.jar;C:\Users\79371\.m2\repository\org\springframework\boot\spring-boot\3.2.0\spring-boot-3.2.0.jar;C:\Users\79371\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.0\spring-boot-autoconfigure-3.2.0.jar;C:\Users\79371\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.0\spring-boot-starter-logging-3.2.0.jar;C:\Users\79371\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\79371\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\79371\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\79371\.m2\repository\org\slf4j\jul-to-slf4j\2.0.9\jul-to-slf4j-2.0.9.jar;C:\Users\79371\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\79371\.m2\repository\org\springframework\spring-core\6.1.1\spring-core-6.1.1.jar;C:\Users\79371\.m2\repository\org\springframework\spring-jcl\6.1.1\spring-jcl-6.1.1.jar;C:\Users\79371\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\79371\.m2\repository\org\springframework\kafka\spring-kafka\3.1.0\spring-kafka-3.1.0.jar;C:\Users\79371\.m2\repository\org\springframework\spring-context\6.1.1\spring-context-6.1.1.jar;C:\Users\79371\.m2\repository\org\springframework\spring-aop\6.1.1\spring-aop-6.1.1.jar;C:\Users\79371\.m2\repository\org\springframework\spring-beans\6.1.1\spring-beans-6.1.1.jar;C:\Users\79371\.m2\repository\org\springframework\spring-expression\6.1.1\spring-expression-6.1.1.jar;C:\Users\79371\.m2\repository\org\springframework\spring-messaging\6.1.1\spring-messaging-6.1.1.jar;C:\Users\79371\.m2\repository\org\springframework\spring-tx\6.1.1\spring-tx-6.1.1.jar;C:\Users\79371\.m2\repository\org\springframework\retry\spring-retry\2.0.4\spring-retry-2.0.4.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-clients\3.6.0\kafka-clients-3.6.0.jar;C:\Users\79371\.m2\repository\com\github\luben\zstd-jni\1.5.5-1\zstd-jni-1.5.5-1.jar;C:\Users\79371\.m2\repository\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;C:\Users\79371\.m2\repository\org\xerial\snappy\snappy-java\1.1.10.4\snappy-java-1.1.10.4.jar;C:\Users\79371\.m2\repository\io\micrometer\micrometer-observation\1.12.0\micrometer-observation-1.12.0.jar;C:\Users\79371\.m2\repository\io\micrometer\micrometer-commons\1.12.0\micrometer-commons-1.12.0.jar;C:\Users\79371\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\79371\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\79371\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\79371\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\79371\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\79371\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.0\spring-boot-starter-test-3.2.0.jar;C:\Users\79371\.m2\repository\org\springframework\boot\spring-boot-test\3.2.0\spring-boot-test-3.2.0.jar;C:\Users\79371\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.0\spring-boot-test-autoconfigure-3.2.0.jar;C:\Users\79371\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\79371\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\79371\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\79371\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\79371\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\79371\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\79371\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\79371\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\79371\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\79371\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\79371\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\79371\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\79371\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\79371\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\79371\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\79371\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\79371\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\79371\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\79371\.m2\repository\org\springframework\spring-test\6.1.1\spring-test-6.1.1.jar;C:\Users\79371\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\79371\.m2\repository\org\springframework\kafka\spring-kafka-test\3.1.0\spring-kafka-test-3.1.0.jar;C:\Users\79371\.m2\repository\org\apache\zookeeper\zookeeper\3.8.3\zookeeper-3.8.3.jar;C:\Users\79371\.m2\repository\org\apache\zookeeper\zookeeper-jute\3.8.3\zookeeper-jute-3.8.3.jar;C:\Users\79371\.m2\repository\org\apache\yetus\audience-annotations\0.12.0\audience-annotations-0.12.0.jar;C:\Users\79371\.m2\repository\io\netty\netty-handler\4.1.101.Final\netty-handler-4.1.101.Final.jar;C:\Users\79371\.m2\repository\io\netty\netty-common\4.1.101.Final\netty-common-4.1.101.Final.jar;C:\Users\79371\.m2\repository\io\netty\netty-resolver\4.1.101.Final\netty-resolver-4.1.101.Final.jar;C:\Users\79371\.m2\repository\io\netty\netty-buffer\4.1.101.Final\netty-buffer-4.1.101.Final.jar;C:\Users\79371\.m2\repository\io\netty\netty-transport\4.1.101.Final\netty-transport-4.1.101.Final.jar;C:\Users\79371\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.101.Final\netty-transport-native-unix-common-4.1.101.Final.jar;C:\Users\79371\.m2\repository\io\netty\netty-codec\4.1.101.Final\netty-codec-4.1.101.Final.jar;C:\Users\79371\.m2\repository\io\netty\netty-transport-native-epoll\4.1.101.Final\netty-transport-native-epoll-4.1.101.Final.jar;C:\Users\79371\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.101.Final\netty-transport-classes-epoll-4.1.101.Final.jar;C:\Users\79371\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\79371\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-clients\3.6.0\kafka-clients-3.6.0-test.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-metadata\3.6.0\kafka-metadata-3.6.0.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-raft\3.6.0\kafka-raft-3.6.0.jar;C:\Users\79371\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar;C:\Users\79371\.m2\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-server-common\3.6.0\kafka-server-common-3.6.0.jar;C:\Users\79371\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\79371\.m2\repository\org\pcollections\pcollections\4.0.1\pcollections-4.0.1.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-server-common\3.6.0\kafka-server-common-3.6.0-test.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-streams-test-utils\3.6.0\kafka-streams-test-utils-3.6.0.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-streams\3.6.0\kafka-streams-3.6.0.jar;C:\Users\79371\.m2\repository\org\rocksdb\rocksdbjni\7.9.2\rocksdbjni-7.9.2.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka_2.13\3.6.0\kafka_2.13-3.6.0.jar;C:\Users\79371\.m2\repository\org\scala-lang\scala-library\2.13.11\scala-library-2.13.11.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-group-coordinator\3.6.0\kafka-group-coordinator-3.6.0.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-storage-api\3.6.0\kafka-storage-api-3.6.0.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-tools-api\3.6.0\kafka-tools-api-3.6.0.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka-storage\3.6.0\kafka-storage-3.6.0.jar;C:\Users\79371\.m2\repository\com\github\ben-manes\caffeine\caffeine\3.1.8\caffeine-3.1.8.jar;C:\Users\79371\.m2\repository\org\checkerframework\checker-qual\3.37.0\checker-qual-3.37.0.jar;C:\Users\79371\.m2\repository\com\google\errorprone\error_prone_annotations\2.21.1\error_prone_annotations-2.21.1.jar;C:\Users\79371\.m2\repository\net\sourceforge\argparse4j\argparse4j\0.7.0\argparse4j-0.7.0.jar;C:\Users\79371\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\79371\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\79371\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\79371\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\79371\.m2\repository\com\fasterxml\jackson\module\jackson-module-scala_2.13\2.15.3\jackson-module-scala_2.13-2.15.3.jar;C:\Users\79371\.m2\repository\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar;C:\Users\79371\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-csv\2.15.3\jackson-dataformat-csv-2.15.3.jar;C:\Users\79371\.m2\repository\org\bitbucket\b_c\jose4j\0.9.3\jose4j-0.9.3.jar;C:\Users\79371\.m2\repository\org\scala-lang\modules\scala-collection-compat_2.13\2.10.0\scala-collection-compat_2.13-2.10.0.jar;C:\Users\79371\.m2\repository\org\scala-lang\modules\scala-java8-compat_2.13\1.0.2\scala-java8-compat_2.13-1.0.2.jar;C:\Users\79371\.m2\repository\org\scala-lang\scala-reflect\2.13.11\scala-reflect-2.13.11.jar;C:\Users\79371\.m2\repository\com\typesafe\scala-logging\scala-logging_2.13\3.9.4\scala-logging_2.13-3.9.4.jar;C:\Users\79371\.m2\repository\io\dropwizard\metrics\metrics-core\4.2.22\metrics-core-4.2.22.jar;C:\Users\79371\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\79371\.m2\repository\org\apache\kafka\kafka_2.13\3.6.0\kafka_2.13-3.6.0-test.jar;C:\Users\79371\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\79371\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\79371\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\79371\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\79371\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.1\junit-platform-launcher-1.10.1.jar;C:\Users\79371\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\79371\.m2\repository\org\testcontainers\kafka\1.21.4\kafka-1.21.4.jar;C:\Users\79371\.m2\repository\org\testcontainers\junit-jupiter\1.21.4\junit-jupiter-1.21.4.jar;C:\Users\79371\.m2\repository\org\springframework\boot\spring-boot-testcontainers\3.2.0\spring-boot-testcontainers-3.2.0.jar;C:\Users\79371\.m2\repository\org\testcontainers\testcontainers\1.21.4\testcontainers-1.21.4.jar;C:\Users\79371\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\79371\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\79371\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\79371\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\79371\.m2\repository\org\rnorth\duct-tape\duct-tape\1.0.8\duct-tape-1.0.8.jar;C:\Users\79371\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\79371\.m2\repository\com\github\docker-java\docker-java-api\3.4.2\docker-java-api-3.4.2.jar;C:\Users\79371\.m2\repository\com\github\docker-java\docker-java-transport-zerodep\3.4.2\docker-java-transport-zerodep-3.4.2.jar;C:\Users\79371\.m2\repository\com\github\docker-java\docker-java-transport\3.4.2\docker-java-transport-3.4.2.jar;C:\Users\79371\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\79371\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\79371\AppData\Local\Temp\surefire10321959703127157785\surefirebooter-20260304222541381_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\79371\AppData\Local\Temp\surefire10590064864363478596\surefirebooter-20260305101849007_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -50,7 +50,7 @@
     <property name="user.dir" value="C:\Users\79371\source\KafkaJunit\demo"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="13552"/>
+    <property name="PID" value="13716"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="Cp1251"/>
@@ -62,29 +62,29 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="shouldRejectInvalidAmounts(String, double, String, OrderStatus, String)[1]" classname="kafka.tests.NegativeOrderTests" time="2.058">
-    <system-out><![CDATA[22:25:42.313 [main] INFO org.testcontainers.images.PullPolicy -- Image pull policy will be performed by: DefaultPullPolicy()
-22:25:42.318 [main] INFO org.testcontainers.utility.ImageNameSubstitutor -- Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
-22:25:42.384 [main] INFO org.testcontainers.DockerClientFactory -- Testcontainers version: 1.21.4
-22:25:42.631 [main] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy -- Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
-22:25:42.915 [main] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy -- Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
-22:25:42.916 [main] INFO org.testcontainers.DockerClientFactory -- Docker host IP address is localhost
-22:25:42.934 [main] INFO org.testcontainers.DockerClientFactory -- Connected to docker: 
+  <testcase name="shouldRejectInvalidAmounts(String, double, String, OrderStatus, String)[1]" classname="kafka.tests.NegativeOrderTests" time="2.268">
+    <system-out><![CDATA[10:18:50.952 [main] INFO org.testcontainers.images.PullPolicy -- Image pull policy will be performed by: DefaultPullPolicy()
+10:18:50.961 [main] INFO org.testcontainers.utility.ImageNameSubstitutor -- Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+10:18:51.061 [main] INFO org.testcontainers.DockerClientFactory -- Testcontainers version: 1.21.4
+10:18:51.419 [main] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy -- Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+10:18:51.931 [main] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy -- Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+10:18:51.933 [main] INFO org.testcontainers.DockerClientFactory -- Docker host IP address is localhost
+10:18:51.955 [main] INFO org.testcontainers.DockerClientFactory -- Connected to docker: 
   Server Version: 29.1.2
   API Version: 1.52
   Operating System: Docker Desktop
   Total Memory: 11888 MB
   Labels: 
     com.docker.desktop.address=npipe://\\.\pipe\docker_cli
-22:25:43.006 [main] INFO tc.testcontainers/ryuk:0.12.0 -- Creating container for image: testcontainers/ryuk:0.12.0
-22:25:43.311 [main] INFO tc.testcontainers/ryuk:0.12.0 -- Container testcontainers/ryuk:0.12.0 is starting: b7e6e08cbb95956cd0dbd4ca1b02e8258f11152c97aac0f46682445b749a283e
-22:25:43.831 [main] INFO tc.testcontainers/ryuk:0.12.0 -- Container testcontainers/ryuk:0.12.0 started in PT0.8254149S
-22:25:43.840 [main] INFO org.testcontainers.utility.RyukResourceReaper -- Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
-22:25:43.840 [main] INFO org.testcontainers.DockerClientFactory -- Checking the system...
-22:25:43.841 [main] INFO org.testcontainers.DockerClientFactory -- ✔︎ Docker server version should be at least 1.6.0
-22:25:43.841 [main] INFO tc.confluentinc/cp-kafka:7.5.0 -- Creating container for image: confluentinc/cp-kafka:7.5.0
-22:25:43.941 [main] INFO tc.confluentinc/cp-kafka:7.5.0 -- Container confluentinc/cp-kafka:7.5.0 is starting: d0a509d9692dd9243f1801984051b40c17e56f2c8fe5ec7d517038af5e86ed28
-22:25:49.079 [main] INFO tc.confluentinc/cp-kafka:7.5.0 -- Container confluentinc/cp-kafka:7.5.0 started in PT5.2384363S
+10:18:52.108 [main] INFO tc.testcontainers/ryuk:0.12.0 -- Creating container for image: testcontainers/ryuk:0.12.0
+10:18:52.476 [main] INFO tc.testcontainers/ryuk:0.12.0 -- Container testcontainers/ryuk:0.12.0 is starting: 2139968820ae62e6ba1f6a940187e7682658ffc1275e625e4aa9ad3fa8964c5b
+10:18:53.190 [main] INFO tc.testcontainers/ryuk:0.12.0 -- Container testcontainers/ryuk:0.12.0 started in PT1.0807462S
+10:18:53.203 [main] INFO org.testcontainers.utility.RyukResourceReaper -- Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+10:18:53.203 [main] INFO org.testcontainers.DockerClientFactory -- Checking the system...
+10:18:53.204 [main] INFO org.testcontainers.DockerClientFactory -- ✔︎ Docker server version should be at least 1.6.0
+10:18:53.205 [main] INFO tc.confluentinc/cp-kafka:7.5.0 -- Creating container for image: confluentinc/cp-kafka:7.5.0
+10:18:53.308 [main] INFO tc.confluentinc/cp-kafka:7.5.0 -- Container confluentinc/cp-kafka:7.5.0 is starting: 783fe37786ecc19743ad4b6ba087d4d1124f4cc2d8f0acabc1e101d923c483a5
+10:19:00.060 [main] INFO tc.confluentinc/cp-kafka:7.5.0 -- Container confluentinc/cp-kafka:7.5.0 started in PT6.8550593S
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -94,15 +94,15 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.0)
 
-2026-03-04T22:25:49.827+04:00  INFO 13552 --- [           main] kafka.tests.BaseTest                     : Kafka Bootstrap Servers: PLAINTEXT://localhost:55208
-2026-03-04T22:25:49.843+04:00  INFO 13552 --- [           main] kafka.tests.NegativeOrderTests           : Starting NegativeOrderTests using Java 23.0.1 with PID 13552 (started by Никита in C:\Users\79371\source\KafkaJunit\demo)
-2026-03-04T22:25:49.844+04:00  INFO 13552 --- [           main] kafka.tests.NegativeOrderTests           : The following 1 profile is active: "test"
-2026-03-04T22:25:50.961+04:00  INFO 13552 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+2026-03-05T10:19:01.101+04:00  INFO 13716 --- [           main] kafka.tests.BaseTest                     : Kafka Bootstrap Servers: PLAINTEXT://localhost:51917
+2026-03-05T10:19:01.117+04:00  INFO 13716 --- [           main] kafka.tests.NegativeOrderTests           : Starting NegativeOrderTests using Java 23.0.1 with PID 13716 (started by Никита in C:\Users\79371\source\KafkaJunit\demo)
+2026-03-05T10:19:01.118+04:00  INFO 13716 --- [           main] kafka.tests.NegativeOrderTests           : The following 1 profile is active: "test"
+2026-03-05T10:19:02.332+04:00  INFO 13716 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.include.jmx.reporter = true
 	auto.offset.reset = earliest
-	bootstrap.servers = [PLAINTEXT://localhost:55208]
+	bootstrap.servers = [PLAINTEXT://localhost:51917]
 	check.crcs = true
 	client.dns.lookup = use_all_dns_ips
 	client.id = consumer-order-process-group-1
@@ -191,24 +191,24 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
 
-2026-03-04T22:25:51.183+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
-2026-03-04T22:25:51.183+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
-2026-03-04T22:25:51.183+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1772648751181
-2026-03-04T22:25:51.185+04:00  INFO 13552 --- [           main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Subscribed to topic(s): orders.created
-2026-03-04T22:25:51.199+04:00  INFO 13552 --- [           main] kafka.tests.NegativeOrderTests           : Started NegativeOrderTests in 1.75 seconds (process running for 9.69)
-2026-03-04T22:25:51.682+04:00  WARN 13552 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Error while fetching metadata with correlation id 2 : {orders.created=LEADER_NOT_AVAILABLE}
-2026-03-04T22:25:51.685+04:00  INFO 13552 --- [ntainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Cluster ID: Xad2jy9-RFyHM4In-p6NUg
-2026-03-04T22:25:51.807+04:00  WARN 13552 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Error while fetching metadata with correlation id 4 : {orders.created=LEADER_NOT_AVAILABLE}
-2026-03-04T22:25:51.920+04:00  WARN 13552 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Error while fetching metadata with correlation id 6 : {orders.created=LEADER_NOT_AVAILABLE}
-2026-03-04T22:25:51.974+04:00  INFO 13552 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+2026-03-05T10:19:02.693+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2026-03-05T10:19:02.693+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2026-03-05T10:19:02.693+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1772691542691
+2026-03-05T10:19:02.696+04:00  INFO 13716 --- [           main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Subscribed to topic(s): orders.created
+2026-03-05T10:19:02.712+04:00  INFO 13716 --- [           main] kafka.tests.NegativeOrderTests           : Started NegativeOrderTests in 2.102 seconds (process running for 13.492)
+2026-03-05T10:19:03.365+04:00  WARN 13716 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Error while fetching metadata with correlation id 2 : {orders.created=LEADER_NOT_AVAILABLE}
+2026-03-05T10:19:03.369+04:00  INFO 13716 --- [ntainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Cluster ID: _tU_jiNhRL2X6pSX7j6eFw
+2026-03-05T10:19:03.484+04:00  WARN 13716 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Error while fetching metadata with correlation id 4 : {orders.created=LEADER_NOT_AVAILABLE}
+2026-03-05T10:19:03.594+04:00  WARN 13716 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Error while fetching metadata with correlation id 6 : {orders.created=LEADER_NOT_AVAILABLE}
+2026-03-05T10:19:03.640+04:00  INFO 13716 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.include.jmx.reporter = true
 	auto.offset.reset = earliest
-	bootstrap.servers = [PLAINTEXT://localhost:55208]
+	bootstrap.servers = [PLAINTEXT://localhost:51917]
 	check.crcs = true
 	client.dns.lookup = use_all_dns_ips
-	client.id = consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2
+	client.id = consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2
 	client.rack = 
 	connections.max.idle.ms = 540000
 	default.api.timeout.ms = 60000
@@ -217,7 +217,7 @@
 	fetch.max.bytes = 52428800
 	fetch.max.wait.ms = 500
 	fetch.min.bytes = 1
-	group.id = test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd
+	group.id = test-group-c7431926-1434-4e1d-b115-961ad2c3397e
 	group.instance.id = null
 	heartbeat.interval.ms = 3000
 	interceptor.classes = []
@@ -294,16 +294,17 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
 
-2026-03-04T22:25:51.981+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
-2026-03-04T22:25:51.982+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
-2026-03-04T22:25:51.982+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1772648751981
-2026-03-04T22:25:51.982+04:00  INFO 13552 --- [           main] kafka.tests.BaseTest                     : Kafka Test Environment Ready: PLAINTEXT://localhost:55208
-2026-03-04T22:25:51.997+04:00  INFO 13552 --- [           main] kafka.tests.NegativeOrderTests           : >>> Start Negative Test: Zero
-2026-03-04T22:25:52.008+04:00  INFO 13552 --- [           main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+2026-03-05T10:19:03.658+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2026-03-05T10:19:03.658+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2026-03-05T10:19:03.658+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1772691543658
+2026-03-05T10:19:03.659+04:00  INFO 13716 --- [           main] kafka.tests.BaseTest                     : Kafka Test Environment Ready: PLAINTEXT://localhost:51917
+2026-03-05T10:19:03.681+04:00  INFO 13716 --- [           main] kafka.tests.NegativeOrderTests           : >>> Start Negative Test: Zero
+2026-03-05T10:19:03.706+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Discovered group coordinator localhost:51917 (id: 2147483646 rack: null)
+2026-03-05T10:19:03.707+04:00  INFO 13716 --- [           main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
 	acks = -1
 	auto.include.jmx.reporter = true
 	batch.size = 16384
-	bootstrap.servers = [PLAINTEXT://localhost:55208]
+	bootstrap.servers = [PLAINTEXT://localhost:51917]
 	buffer.memory = 33554432
 	client.dns.lookup = use_all_dns_ips
 	client.id = producer-1
@@ -389,53 +390,52 @@
 	transactional.id = null
 	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
 
-2026-03-04T22:25:52.017+04:00  INFO 13552 --- [           main] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Instantiated an idempotent producer.
-2026-03-04T22:25:52.031+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Discovered group coordinator localhost:55208 (id: 2147483646 rack: null)
-2026-03-04T22:25:52.036+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
-2026-03-04T22:25:52.036+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
-2026-03-04T22:25:52.036+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1772648752036
-2026-03-04T22:25:52.036+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] (Re-)joining group
-2026-03-04T22:25:52.049+04:00  INFO 13552 --- [ad | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: Xad2jy9-RFyHM4In-p6NUg
-2026-03-04T22:25:52.084+04:00  INFO 13552 --- [ad | producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-1] ProducerId set to 0 with epoch 0
-2026-03-04T22:25:52.089+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Request joining group due to: need to re-join with the given member-id: consumer-order-process-group-1-f82dbdd1-69b6-457c-9e35-5972d4744cf1
-2026-03-04T22:25:52.089+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
-2026-03-04T22:25:52.089+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] (Re-)joining group
-2026-03-04T22:25:52.114+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Successfully joined group with generation Generation{generationId=1, memberId='consumer-order-process-group-1-f82dbdd1-69b6-457c-9e35-5972d4744cf1', protocol='range'}
-2026-03-04T22:25:52.122+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Finished assignment for group at generation 1: {consumer-order-process-group-1-f82dbdd1-69b6-457c-9e35-5972d4744cf1=Assignment(partitions=[orders.created-0])}
-2026-03-04T22:25:52.174+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Successfully synced group in generation Generation{generationId=1, memberId='consumer-order-process-group-1-f82dbdd1-69b6-457c-9e35-5972d4744cf1', protocol='range'}
-2026-03-04T22:25:52.175+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Notifying assignor about the new Assignment(partitions=[orders.created-0])
-2026-03-04T22:25:52.179+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Adding newly assigned partitions: orders.created-0
-2026-03-04T22:25:52.181+04:00  INFO 13552 --- [           main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Subscribed to topic(s): orders.processed
-2026-03-04T22:25:52.197+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Found no committed offset for partition orders.created-0
-2026-03-04T22:25:52.213+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Resetting offset for partition orders.created-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:55208 (id: 1 rack: null)], epoch=0}}.
-2026-03-04T22:25:52.213+04:00  INFO 13552 --- [ntainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : order-process-group: partitions assigned: [orders.created-0]
-2026-03-04T22:25:52.299+04:00  INFO 13552 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Received order: NEG-001
-2026-03-04T22:25:52.299+04:00  WARN 13552 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Order NEG-001 rejected due to invalid amount
-2026-03-04T22:25:52.315+04:00  WARN 13552 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 5 : {orders.processed=LEADER_NOT_AVAILABLE}
-2026-03-04T22:25:52.420+04:00  INFO 13552 --- [ad | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Resetting the last seen epoch of partition orders.created-0 to 0 since the associated topicId changed from null to DOpgDKr6SfGQZFhv8JyrSw
-2026-03-04T22:25:52.707+04:00  INFO 13552 --- [aitility-thread] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Cluster ID: Xad2jy9-RFyHM4In-p6NUg
-2026-03-04T22:25:52.709+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Discovered group coordinator localhost:55208 (id: 2147483646 rack: null)
-2026-03-04T22:25:52.712+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] (Re-)joining group
-2026-03-04T22:25:52.716+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Request joining group due to: need to re-join with the given member-id: consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2-99fc094d-dd08-47fc-b5e3-9c60ada9de7f
-2026-03-04T22:25:52.717+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
-2026-03-04T22:25:52.717+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] (Re-)joining group
-2026-03-04T22:25:52.721+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Successfully joined group with generation Generation{generationId=1, memberId='consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2-99fc094d-dd08-47fc-b5e3-9c60ada9de7f', protocol='range'}
-2026-03-04T22:25:52.722+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Finished assignment for group at generation 1: {consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2-99fc094d-dd08-47fc-b5e3-9c60ada9de7f=Assignment(partitions=[orders.processed-0])}
-2026-03-04T22:25:52.727+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Successfully synced group in generation Generation{generationId=1, memberId='consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2-99fc094d-dd08-47fc-b5e3-9c60ada9de7f', protocol='range'}
-2026-03-04T22:25:52.728+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Notifying assignor about the new Assignment(partitions=[orders.processed-0])
-2026-03-04T22:25:52.728+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Adding newly assigned partitions: orders.processed-0
-2026-03-04T22:25:52.730+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Found no committed offset for partition orders.processed-0
-2026-03-04T22:25:52.737+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Resetting offset for partition orders.processed-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:55208 (id: 1 rack: null)], epoch=0}}.
-2026-03-04T22:25:52.750+04:00  INFO 13552 --- [           main] kafka.tests.NegativeOrderTests           : <<< Test Passed (Correctly Rejected): Zero
-2026-03-04T22:25:52.759+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Revoke previously assigned partitions orders.processed-0
-2026-03-04T22:25:52.759+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Member consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2-99fc094d-dd08-47fc-b5e3-9c60ada9de7f sending LeaveGroup request to coordinator localhost:55208 (id: 2147483646 rack: null) due to the consumer is being closed
-2026-03-04T22:25:52.759+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Resetting generation and member id due to: consumer pro-actively leaving the group
-2026-03-04T22:25:52.759+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2, groupId=test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd] Request joining group due to: consumer pro-actively leaving the group
-2026-03-04T22:25:53.252+04:00  INFO 13552 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2026-03-04T22:25:53.252+04:00  INFO 13552 --- [           main] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2026-03-04T22:25:53.252+04:00  INFO 13552 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2026-03-04T22:25:53.258+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-test-group-13cd2cb7-6ca1-4887-8e6f-fea780f528fd-2 unregistered
-2026-03-04T22:25:53.259+04:00  INFO 13552 --- [           main] kafka.tests.BaseTest                     :  Consumer closed successfully
+2026-03-05T10:19:03.709+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] (Re-)joining group
+2026-03-05T10:19:03.721+04:00  INFO 13716 --- [           main] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Instantiated an idempotent producer.
+2026-03-05T10:19:03.739+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2026-03-05T10:19:03.739+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2026-03-05T10:19:03.739+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1772691543739
+2026-03-05T10:19:03.742+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Request joining group due to: need to re-join with the given member-id: consumer-order-process-group-1-e8371322-f0f3-4bd2-827b-db45613b8e33
+2026-03-05T10:19:03.743+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-05T10:19:03.743+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] (Re-)joining group
+2026-03-05T10:19:03.755+04:00  INFO 13716 --- [ad | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: _tU_jiNhRL2X6pSX7j6eFw
+2026-03-05T10:19:03.794+04:00  INFO 13716 --- [ad | producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-1] ProducerId set to 0 with epoch 0
+2026-03-05T10:19:03.801+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Successfully joined group with generation Generation{generationId=1, memberId='consumer-order-process-group-1-e8371322-f0f3-4bd2-827b-db45613b8e33', protocol='range'}
+2026-03-05T10:19:03.810+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Finished assignment for group at generation 1: {consumer-order-process-group-1-e8371322-f0f3-4bd2-827b-db45613b8e33=Assignment(partitions=[orders.created-0])}
+2026-03-05T10:19:03.877+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Successfully synced group in generation Generation{generationId=1, memberId='consumer-order-process-group-1-e8371322-f0f3-4bd2-827b-db45613b8e33', protocol='range'}
+2026-03-05T10:19:03.878+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Notifying assignor about the new Assignment(partitions=[orders.created-0])
+2026-03-05T10:19:03.882+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Adding newly assigned partitions: orders.created-0
+2026-03-05T10:19:03.898+04:00  INFO 13716 --- [           main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Subscribed to topic(s): orders.processed
+2026-03-05T10:19:03.906+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Found no committed offset for partition orders.created-0
+2026-03-05T10:19:03.928+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-order-process-group-1, groupId=order-process-group] Resetting offset for partition orders.created-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:51917 (id: 1 rack: null)], epoch=0}}.
+2026-03-05T10:19:03.930+04:00  INFO 13716 --- [ntainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : order-process-group: partitions assigned: [orders.created-0]
+2026-03-05T10:19:04.021+04:00  INFO 13716 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Received order: NEG-001
+2026-03-05T10:19:04.021+04:00  WARN 13716 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Order NEG-001 rejected due to invalid amount
+2026-03-05T10:19:04.038+04:00  WARN 13716 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 5 : {orders.processed=LEADER_NOT_AVAILABLE}
+2026-03-05T10:19:04.150+04:00  INFO 13716 --- [ad | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Resetting the last seen epoch of partition orders.created-0 to 0 since the associated topicId changed from null to xPq5BCe3TLO5rzbahgwWZg
+2026-03-05T10:19:04.432+04:00  INFO 13716 --- [aitility-thread] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Cluster ID: _tU_jiNhRL2X6pSX7j6eFw
+2026-03-05T10:19:04.433+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Discovered group coordinator localhost:51917 (id: 2147483646 rack: null)
+2026-03-05T10:19:04.437+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] (Re-)joining group
+2026-03-05T10:19:04.442+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Request joining group due to: need to re-join with the given member-id: consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2-abbfd114-dd79-4412-8b66-895e40d7211a
+2026-03-05T10:19:04.442+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-05T10:19:04.443+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] (Re-)joining group
+2026-03-05T10:19:04.448+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Successfully joined group with generation Generation{generationId=1, memberId='consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2-abbfd114-dd79-4412-8b66-895e40d7211a', protocol='range'}
+2026-03-05T10:19:04.448+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Finished assignment for group at generation 1: {consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2-abbfd114-dd79-4412-8b66-895e40d7211a=Assignment(partitions=[orders.processed-0])}
+2026-03-05T10:19:04.453+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Successfully synced group in generation Generation{generationId=1, memberId='consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2-abbfd114-dd79-4412-8b66-895e40d7211a', protocol='range'}
+2026-03-05T10:19:04.454+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Notifying assignor about the new Assignment(partitions=[orders.processed-0])
+2026-03-05T10:19:04.454+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Adding newly assigned partitions: orders.processed-0
+2026-03-05T10:19:04.457+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Found no committed offset for partition orders.processed-0
+2026-03-05T10:19:04.464+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Resetting offset for partition orders.processed-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:51917 (id: 1 rack: null)], epoch=0}}.
+2026-03-05T10:19:04.476+04:00  INFO 13716 --- [           main] kafka.tests.NegativeOrderTests           : <<< Test Passed (Correctly Rejected): Zero
+2026-03-05T10:19:04.484+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Revoke previously assigned partitions orders.processed-0
+2026-03-05T10:19:04.484+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Member consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2-abbfd114-dd79-4412-8b66-895e40d7211a sending LeaveGroup request to coordinator localhost:51917 (id: 2147483646 rack: null) due to the consumer is being closed
+2026-03-05T10:19:04.485+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-03-05T10:19:04.485+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2, groupId=test-group-c7431926-1434-4e1d-b115-961ad2c3397e] Request joining group due to: consumer pro-actively leaving the group
+2026-03-05T10:19:04.977+04:00  INFO 13716 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-03-05T10:19:04.977+04:00  INFO 13716 --- [           main] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-03-05T10:19:04.977+04:00  INFO 13716 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-03-05T10:19:04.982+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-test-group-c7431926-1434-4e1d-b115-961ad2c3397e-2 unregistered
+2026-03-05T10:19:04.983+04:00  INFO 13716 --- [           main] kafka.tests.BaseTest                     :  Consumer closed successfully
 ]]></system-out>
     <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\79371\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
@@ -443,16 +443,16 @@ WARNING: If a serviceability tool is not in use, please run with -Djdk.instrumen
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
 ]]></system-err>
   </testcase>
-  <testcase name="shouldRejectInvalidAmounts(String, double, String, OrderStatus, String)[2]" classname="kafka.tests.NegativeOrderTests" time="1.088">
-    <system-out><![CDATA[2026-03-04T22:25:53.278+04:00  INFO 13552 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+  <testcase name="shouldRejectInvalidAmounts(String, double, String, OrderStatus, String)[2]" classname="kafka.tests.NegativeOrderTests" time="1.073">
+    <system-out><![CDATA[2026-03-05T10:19:05.002+04:00  INFO 13716 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.include.jmx.reporter = true
 	auto.offset.reset = earliest
-	bootstrap.servers = [PLAINTEXT://localhost:55208]
+	bootstrap.servers = [PLAINTEXT://localhost:51917]
 	check.crcs = true
 	client.dns.lookup = use_all_dns_ips
-	client.id = consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3
+	client.id = consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3
 	client.rack = 
 	connections.max.idle.ms = 540000
 	default.api.timeout.ms = 60000
@@ -461,7 +461,7 @@ WARNING: Dynamic loading of agents will be disallowed by default in a future rel
 	fetch.max.bytes = 52428800
 	fetch.max.wait.ms = 500
 	fetch.min.bytes = 1
-	group.id = test-group-59721539-b384-4f21-bd6f-2971672ecca5
+	group.id = test-group-0c101a81-146d-4874-82d4-cb614787c70c
 	group.instance.id = null
 	heartbeat.interval.ms = 3000
 	interceptor.classes = []
@@ -538,49 +538,49 @@ WARNING: Dynamic loading of agents will be disallowed by default in a future rel
 	ssl.truststore.type = JKS
 	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
 
-2026-03-04T22:25:53.284+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
-2026-03-04T22:25:53.284+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
-2026-03-04T22:25:53.284+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1772648753284
-2026-03-04T22:25:53.284+04:00  INFO 13552 --- [           main] kafka.tests.BaseTest                     : Kafka Test Environment Ready: PLAINTEXT://localhost:55208
-2026-03-04T22:25:53.285+04:00  INFO 13552 --- [           main] kafka.tests.NegativeOrderTests           : >>> Start Negative Test: Negative sum
-2026-03-04T22:25:53.291+04:00  INFO 13552 --- [           main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Subscribed to topic(s): orders.processed
-2026-03-04T22:25:53.293+04:00  INFO 13552 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Received order: NEG-002
-2026-03-04T22:25:53.293+04:00  WARN 13552 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Order NEG-002 rejected due to invalid amount
-2026-03-04T22:25:53.810+04:00  INFO 13552 --- [aitility-thread] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Cluster ID: Xad2jy9-RFyHM4In-p6NUg
-2026-03-04T22:25:53.811+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Discovered group coordinator localhost:55208 (id: 2147483646 rack: null)
-2026-03-04T22:25:53.813+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] (Re-)joining group
-2026-03-04T22:25:53.818+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Request joining group due to: need to re-join with the given member-id: consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3-8c7f2725-8ad6-444d-a979-5b86e50737a7
-2026-03-04T22:25:53.819+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
-2026-03-04T22:25:53.819+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] (Re-)joining group
-2026-03-04T22:25:53.827+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Successfully joined group with generation Generation{generationId=1, memberId='consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3-8c7f2725-8ad6-444d-a979-5b86e50737a7', protocol='range'}
-2026-03-04T22:25:53.827+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Finished assignment for group at generation 1: {consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3-8c7f2725-8ad6-444d-a979-5b86e50737a7=Assignment(partitions=[orders.processed-0])}
-2026-03-04T22:25:53.834+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Successfully synced group in generation Generation{generationId=1, memberId='consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3-8c7f2725-8ad6-444d-a979-5b86e50737a7', protocol='range'}
-2026-03-04T22:25:53.834+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Notifying assignor about the new Assignment(partitions=[orders.processed-0])
-2026-03-04T22:25:53.834+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Adding newly assigned partitions: orders.processed-0
-2026-03-04T22:25:53.839+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Found no committed offset for partition orders.processed-0
-2026-03-04T22:25:53.847+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Resetting offset for partition orders.processed-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:55208 (id: 1 rack: null)], epoch=0}}.
-2026-03-04T22:25:53.855+04:00  INFO 13552 --- [           main] kafka.tests.NegativeOrderTests           : <<< Test Passed (Correctly Rejected): Negative sum
-2026-03-04T22:25:53.862+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Revoke previously assigned partitions orders.processed-0
-2026-03-04T22:25:53.862+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Member consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3-8c7f2725-8ad6-444d-a979-5b86e50737a7 sending LeaveGroup request to coordinator localhost:55208 (id: 2147483646 rack: null) due to the consumer is being closed
-2026-03-04T22:25:53.862+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Resetting generation and member id due to: consumer pro-actively leaving the group
-2026-03-04T22:25:53.863+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3, groupId=test-group-59721539-b384-4f21-bd6f-2971672ecca5] Request joining group due to: consumer pro-actively leaving the group
-2026-03-04T22:25:54.360+04:00  INFO 13552 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2026-03-04T22:25:54.360+04:00  INFO 13552 --- [           main] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2026-03-04T22:25:54.360+04:00  INFO 13552 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2026-03-04T22:25:54.362+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-test-group-59721539-b384-4f21-bd6f-2971672ecca5-3 unregistered
-2026-03-04T22:25:54.362+04:00  INFO 13552 --- [           main] kafka.tests.BaseTest                     :  Consumer closed successfully
+2026-03-05T10:19:05.008+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2026-03-05T10:19:05.009+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2026-03-05T10:19:05.009+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1772691545008
+2026-03-05T10:19:05.009+04:00  INFO 13716 --- [           main] kafka.tests.BaseTest                     : Kafka Test Environment Ready: PLAINTEXT://localhost:51917
+2026-03-05T10:19:05.009+04:00  INFO 13716 --- [           main] kafka.tests.NegativeOrderTests           : >>> Start Negative Test: Negative sum
+2026-03-05T10:19:05.017+04:00  INFO 13716 --- [           main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Subscribed to topic(s): orders.processed
+2026-03-05T10:19:05.018+04:00  INFO 13716 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Received order: NEG-002
+2026-03-05T10:19:05.019+04:00  WARN 13716 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Order NEG-002 rejected due to invalid amount
+2026-03-05T10:19:05.533+04:00  INFO 13716 --- [aitility-thread] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Cluster ID: _tU_jiNhRL2X6pSX7j6eFw
+2026-03-05T10:19:05.533+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Discovered group coordinator localhost:51917 (id: 2147483646 rack: null)
+2026-03-05T10:19:05.535+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] (Re-)joining group
+2026-03-05T10:19:05.540+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Request joining group due to: need to re-join with the given member-id: consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3-d72197df-524b-42ec-a867-6a946b95c0dc
+2026-03-05T10:19:05.540+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-05T10:19:05.540+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] (Re-)joining group
+2026-03-05T10:19:05.546+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Successfully joined group with generation Generation{generationId=1, memberId='consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3-d72197df-524b-42ec-a867-6a946b95c0dc', protocol='range'}
+2026-03-05T10:19:05.546+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Finished assignment for group at generation 1: {consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3-d72197df-524b-42ec-a867-6a946b95c0dc=Assignment(partitions=[orders.processed-0])}
+2026-03-05T10:19:05.551+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Successfully synced group in generation Generation{generationId=1, memberId='consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3-d72197df-524b-42ec-a867-6a946b95c0dc', protocol='range'}
+2026-03-05T10:19:05.551+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Notifying assignor about the new Assignment(partitions=[orders.processed-0])
+2026-03-05T10:19:05.551+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Adding newly assigned partitions: orders.processed-0
+2026-03-05T10:19:05.554+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Found no committed offset for partition orders.processed-0
+2026-03-05T10:19:05.559+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Resetting offset for partition orders.processed-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:51917 (id: 1 rack: null)], epoch=0}}.
+2026-03-05T10:19:05.564+04:00  INFO 13716 --- [           main] kafka.tests.NegativeOrderTests           : <<< Test Passed (Correctly Rejected): Negative sum
+2026-03-05T10:19:05.570+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Revoke previously assigned partitions orders.processed-0
+2026-03-05T10:19:05.570+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Member consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3-d72197df-524b-42ec-a867-6a946b95c0dc sending LeaveGroup request to coordinator localhost:51917 (id: 2147483646 rack: null) due to the consumer is being closed
+2026-03-05T10:19:05.570+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-03-05T10:19:05.570+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3, groupId=test-group-0c101a81-146d-4874-82d4-cb614787c70c] Request joining group due to: consumer pro-actively leaving the group
+2026-03-05T10:19:06.069+04:00  INFO 13716 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-03-05T10:19:06.069+04:00  INFO 13716 --- [           main] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-03-05T10:19:06.069+04:00  INFO 13716 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-03-05T10:19:06.071+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-test-group-0c101a81-146d-4874-82d4-cb614787c70c-3 unregistered
+2026-03-05T10:19:06.071+04:00  INFO 13716 --- [           main] kafka.tests.BaseTest                     :  Consumer closed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="shouldRejectInvalidAmounts(String, double, String, OrderStatus, String)[3]" classname="kafka.tests.NegativeOrderTests" time="1.064">
-    <system-out><![CDATA[2026-03-04T22:25:54.367+04:00  INFO 13552 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+  <testcase name="shouldRejectInvalidAmounts(String, double, String, OrderStatus, String)[3]" classname="kafka.tests.NegativeOrderTests" time="1.068">
+    <system-out><![CDATA[2026-03-05T10:19:06.077+04:00  INFO 13716 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.include.jmx.reporter = true
 	auto.offset.reset = earliest
-	bootstrap.servers = [PLAINTEXT://localhost:55208]
+	bootstrap.servers = [PLAINTEXT://localhost:51917]
 	check.crcs = true
 	client.dns.lookup = use_all_dns_ips
-	client.id = consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4
+	client.id = consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4
 	client.rack = 
 	connections.max.idle.ms = 540000
 	default.api.timeout.ms = 60000
@@ -589,7 +589,7 @@ WARNING: Dynamic loading of agents will be disallowed by default in a future rel
 	fetch.max.bytes = 52428800
 	fetch.max.wait.ms = 500
 	fetch.min.bytes = 1
-	group.id = test-group-18d32149-291a-40e0-8939-13b1680d1687
+	group.id = test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c
 	group.instance.id = null
 	heartbeat.interval.ms = 3000
 	interceptor.classes = []
@@ -666,37 +666,37 @@ WARNING: Dynamic loading of agents will be disallowed by default in a future rel
 	ssl.truststore.type = JKS
 	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
 
-2026-03-04T22:25:54.371+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
-2026-03-04T22:25:54.371+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
-2026-03-04T22:25:54.371+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1772648754371
-2026-03-04T22:25:54.371+04:00  INFO 13552 --- [           main] kafka.tests.BaseTest                     : Kafka Test Environment Ready: PLAINTEXT://localhost:55208
-2026-03-04T22:25:54.371+04:00  INFO 13552 --- [           main] kafka.tests.NegativeOrderTests           : >>> Start Negative Test: Negative float sum
-2026-03-04T22:25:54.376+04:00  INFO 13552 --- [           main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Subscribed to topic(s): orders.processed
-2026-03-04T22:25:54.378+04:00  INFO 13552 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Received order: NEG-003
-2026-03-04T22:25:54.379+04:00  WARN 13552 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Order NEG-003 rejected due to invalid amount
-2026-03-04T22:25:54.892+04:00  INFO 13552 --- [aitility-thread] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Cluster ID: Xad2jy9-RFyHM4In-p6NUg
-2026-03-04T22:25:54.893+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Discovered group coordinator localhost:55208 (id: 2147483646 rack: null)
-2026-03-04T22:25:54.894+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] (Re-)joining group
-2026-03-04T22:25:54.898+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Request joining group due to: need to re-join with the given member-id: consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4-e868b624-764d-47d2-b4c1-a729c659a1dc
-2026-03-04T22:25:54.899+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
-2026-03-04T22:25:54.899+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] (Re-)joining group
-2026-03-04T22:25:54.903+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Successfully joined group with generation Generation{generationId=1, memberId='consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4-e868b624-764d-47d2-b4c1-a729c659a1dc', protocol='range'}
-2026-03-04T22:25:54.904+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Finished assignment for group at generation 1: {consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4-e868b624-764d-47d2-b4c1-a729c659a1dc=Assignment(partitions=[orders.processed-0])}
-2026-03-04T22:25:54.908+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Successfully synced group in generation Generation{generationId=1, memberId='consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4-e868b624-764d-47d2-b4c1-a729c659a1dc', protocol='range'}
-2026-03-04T22:25:54.909+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Notifying assignor about the new Assignment(partitions=[orders.processed-0])
-2026-03-04T22:25:54.909+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Adding newly assigned partitions: orders.processed-0
-2026-03-04T22:25:54.911+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Found no committed offset for partition orders.processed-0
-2026-03-04T22:25:54.916+04:00  INFO 13552 --- [aitility-thread] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Resetting offset for partition orders.processed-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:55208 (id: 1 rack: null)], epoch=0}}.
-2026-03-04T22:25:54.921+04:00  INFO 13552 --- [           main] kafka.tests.NegativeOrderTests           : <<< Test Passed (Correctly Rejected): Negative float sum
-2026-03-04T22:25:54.926+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Revoke previously assigned partitions orders.processed-0
-2026-03-04T22:25:54.926+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Member consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4-e868b624-764d-47d2-b4c1-a729c659a1dc sending LeaveGroup request to coordinator localhost:55208 (id: 2147483646 rack: null) due to the consumer is being closed
-2026-03-04T22:25:54.926+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Resetting generation and member id due to: consumer pro-actively leaving the group
-2026-03-04T22:25:54.926+04:00  INFO 13552 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4, groupId=test-group-18d32149-291a-40e0-8939-13b1680d1687] Request joining group due to: consumer pro-actively leaving the group
-2026-03-04T22:25:55.426+04:00  INFO 13552 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2026-03-04T22:25:55.426+04:00  INFO 13552 --- [           main] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2026-03-04T22:25:55.426+04:00  INFO 13552 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2026-03-04T22:25:55.428+04:00  INFO 13552 --- [           main] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-test-group-18d32149-291a-40e0-8939-13b1680d1687-4 unregistered
-2026-03-04T22:25:55.428+04:00  INFO 13552 --- [           main] kafka.tests.BaseTest                     :  Consumer closed successfully
+2026-03-05T10:19:06.081+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2026-03-05T10:19:06.081+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2026-03-05T10:19:06.081+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1772691546081
+2026-03-05T10:19:06.081+04:00  INFO 13716 --- [           main] kafka.tests.BaseTest                     : Kafka Test Environment Ready: PLAINTEXT://localhost:51917
+2026-03-05T10:19:06.082+04:00  INFO 13716 --- [           main] kafka.tests.NegativeOrderTests           : >>> Start Negative Test: Negative float sum
+2026-03-05T10:19:06.086+04:00  INFO 13716 --- [           main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Subscribed to topic(s): orders.processed
+2026-03-05T10:19:06.090+04:00  INFO 13716 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Received order: NEG-003
+2026-03-05T10:19:06.090+04:00  WARN 13716 --- [ntainer#0-0-C-1] c.example.kafka.Service.OrderProcessor   : Order NEG-003 rejected due to invalid amount
+2026-03-05T10:19:06.604+04:00  INFO 13716 --- [aitility-thread] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Cluster ID: _tU_jiNhRL2X6pSX7j6eFw
+2026-03-05T10:19:06.604+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Discovered group coordinator localhost:51917 (id: 2147483646 rack: null)
+2026-03-05T10:19:06.606+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] (Re-)joining group
+2026-03-05T10:19:06.610+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Request joining group due to: need to re-join with the given member-id: consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4-9b61cb9a-1df7-4cec-add4-6f479a0af406
+2026-03-05T10:19:06.610+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-05T10:19:06.610+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] (Re-)joining group
+2026-03-05T10:19:06.615+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Successfully joined group with generation Generation{generationId=1, memberId='consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4-9b61cb9a-1df7-4cec-add4-6f479a0af406', protocol='range'}
+2026-03-05T10:19:06.616+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Finished assignment for group at generation 1: {consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4-9b61cb9a-1df7-4cec-add4-6f479a0af406=Assignment(partitions=[orders.processed-0])}
+2026-03-05T10:19:06.620+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Successfully synced group in generation Generation{generationId=1, memberId='consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4-9b61cb9a-1df7-4cec-add4-6f479a0af406', protocol='range'}
+2026-03-05T10:19:06.621+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Notifying assignor about the new Assignment(partitions=[orders.processed-0])
+2026-03-05T10:19:06.621+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Adding newly assigned partitions: orders.processed-0
+2026-03-05T10:19:06.624+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Found no committed offset for partition orders.processed-0
+2026-03-05T10:19:06.629+04:00  INFO 13716 --- [aitility-thread] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Resetting offset for partition orders.processed-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:51917 (id: 1 rack: null)], epoch=0}}.
+2026-03-05T10:19:06.635+04:00  INFO 13716 --- [           main] kafka.tests.NegativeOrderTests           : <<< Test Passed (Correctly Rejected): Negative float sum
+2026-03-05T10:19:06.640+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Revoke previously assigned partitions orders.processed-0
+2026-03-05T10:19:06.640+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Member consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4-9b61cb9a-1df7-4cec-add4-6f479a0af406 sending LeaveGroup request to coordinator localhost:51917 (id: 2147483646 rack: null) due to the consumer is being closed
+2026-03-05T10:19:06.641+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-03-05T10:19:06.641+04:00  INFO 13716 --- [           main] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4, groupId=test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c] Request joining group due to: consumer pro-actively leaving the group
+2026-03-05T10:19:07.139+04:00  INFO 13716 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-03-05T10:19:07.139+04:00  INFO 13716 --- [           main] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-03-05T10:19:07.139+04:00  INFO 13716 --- [           main] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-03-05T10:19:07.141+04:00  INFO 13716 --- [           main] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-test-group-cddfc990-a1f0-407d-ba19-2f3b2560885c-4 unregistered
+2026-03-05T10:19:07.141+04:00  INFO 13716 --- [           main] kafka.tests.BaseTest                     :  Consumer closed successfully
 ]]></system-out>
   </testcase>
 </testsuite>
