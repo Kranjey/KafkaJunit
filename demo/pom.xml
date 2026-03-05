@@ -9,7 +9,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <!-- Spring Boot Parent для управления версиями зависимостей -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -24,7 +23,6 @@
     </properties>
 
     <dependencies>
-        <!-- Spring Boot & Kafka -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -38,14 +36,12 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
 
-        <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
 
-        <!-- Testing -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -57,7 +53,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Testcontainers -->
         <dependency>
             <groupId>org.testcontainers</groupId>
             <artifactId>kafka</artifactId>
@@ -81,8 +76,6 @@
             <version>${testcontainers.version}</version>
             <scope>test</scope>
         </dependency>
-
-        <!-- Awaitility -->
         <dependency>
             <groupId>org.awaitility</groupId>
             <artifactId>awaitility</artifactId>
@@ -93,7 +86,6 @@
 
     <build>
         <plugins>
-            <!-- ✅ Spring Boot Plugin - СЮДА добавляем environmentVariables -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
@@ -107,7 +99,6 @@
                 </configuration>
             </plugin>
 
-            <!-- ✅ Compiler Plugin - БЕЗ environmentVariables -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
